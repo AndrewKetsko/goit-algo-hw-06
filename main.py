@@ -20,7 +20,6 @@ def main():
     book.add_record(jane_record)
 
     # Виведення всіх записів у книзі
-     
     print(book)
 
     # Знаходження та редагування телефону для John
@@ -35,6 +34,9 @@ def main():
 
     # Видалення запису Jane
     book.delete("Jane")
+
+    # Виведення всіх записів у книзі
+    print(book)
 
 
 if __name__=='__main__':
